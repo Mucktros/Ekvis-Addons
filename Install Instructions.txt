@@ -17,4 +17,4 @@ Could not load manifest.
 this is because your file path looks like this
 Downloads\filename\filename
 
-the most easy way to file this is to go into the duplicated folder, and drag its content out into the fiest file, now drag the extenion in and your good
+the most easy way to file this is to go into the duplicated folder, and drag its content out into the first file, now drag the extenion in and your good
