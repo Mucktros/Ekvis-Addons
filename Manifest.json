@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "Ekvis Addons",
-  "version": "1.0",
-  "description": "Ekvis Addons.",
+  "version": "1.1",
+  "description": "Adds Ekvis Addons To Ekvis",
   "permissions": ["activeTab"],
   "host_permissions": [
     "https://ekvis.com/*"

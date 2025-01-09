@@ -37,7 +37,7 @@ RemoveLandButton.innerHTML = "Remove Extra Land";
 
 RemoveLandButton.addEventListener("click", () => {
   const elements = document.querySelectorAll(
-    '[id=".land"], [inkscape\\:label=".land"], .land'
+    '[id=".land"], [inkscape\\:label=".land"], [class="noarea group clicktarget"], .land'
   );
   elements.forEach(el => {
     el.style.opacity = el.style.opacity === "0" ? "1" : "0";

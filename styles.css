@@ -30,11 +30,11 @@
 }
 
 .toggleButton.active, .closeButton.active, #reopenButton.active {
-  background-color: #4CAF50;
+  background-color: #397C3C;
 }
 
 .toggleButton:hover, .closeButton:hover, #reopenButton:hover {
-  background-color: #4CAF50;
+  background-color: #397C3C;
   transform: scale(1.05);
 }
 
