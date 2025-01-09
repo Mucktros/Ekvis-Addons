@@ -1,0 +1,20 @@
+Unzip This file
+
+Go to chrome addons
+
+chrome://extensions/
+
+click developer mode (in the top righ corner)
+
+now drag the unzipped file into the extensions
+
+if you get an error like this File
+~\Downloads\filename
+Error
+Manifest file is missing or unreadable
+Could not load manifest.
+
+this is because your file path looks like this
+Downloads\filename\filename
+
+the most easy way to file this is to go into the duplicated folder, and drag its content out into the fiest file, now drag the extenion in and your good

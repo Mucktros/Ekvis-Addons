@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Ekvis Addons",
+  "version": "1.0",
+  "description": "Ekvis Addons.",
+  "permissions": ["activeTab"],
+  "host_permissions": [
+    "https://ekvis.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://ekvis.com/*"
+      ],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ]
+}

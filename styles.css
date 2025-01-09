@@ -1,0 +1,55 @@
+#floatingPanel {
+  position: Absolute;
+  top: 100px;
+  left: 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 8px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  z-index: 10000;
+  width: 200px;
+  gap: 15px;
+}
+
+#floatingPanel.hidden {
+  display: none;
+}
+
+.toggleButton, .closeButton, #reopenButton {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  font-size: 16px;
+  padding: 12px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.toggleButton.active, .closeButton.active, #reopenButton.active {
+  background-color: #4CAF50;
+}
+
+.toggleButton:hover, .closeButton:hover, #reopenButton:hover {
+  background-color: #4CAF50;
+  transform: scale(1.05);
+}
+
+#reopenButton {
+  position: fixed;
+  top: 100px;
+  left: 20px;
+  z-index: 9999;
+  width: 200px;
+}
+
+#reopenButton.hidden {
+  display: none;
+}
+
+.hidden {
+  opacity: 0;
+}
