@@ -16,6 +16,7 @@ Extract the contents of the downloaded ZIP file to a convenient location on your
 
 ### 2. Open Chrome Extensions
 In your Chrome browser, navigate to:
+
 `chrome://extensions/`
 
 ### 3. Enable Developer Mode
@@ -29,6 +30,7 @@ If you encounter the error:
 **"Error: Manifest file is missing or unreadable"**  
 This usually happens when the file path is incorrect, such as:
 `Downloads\filename\filename`
+
 To resolve this:
 1. Open the duplicated folder.
 2. Move the contents into the main folder (one level up).
