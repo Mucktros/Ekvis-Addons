@@ -29,6 +29,7 @@ Drag and drop the unzipped folder directly into the Extensions page. Chrome will
 If you encounter the error:
 **"Error: Manifest file is missing or unreadable"**  
 This usually happens when the file path is incorrect, such as:
+
 `Downloads\filename\filename`
 
 To resolve this:
