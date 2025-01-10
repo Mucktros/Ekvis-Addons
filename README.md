@@ -44,4 +44,4 @@ Once completed, the extension should install successfully.
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the Apache-2.0 license.
