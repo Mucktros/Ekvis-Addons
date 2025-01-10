@@ -11,18 +11,22 @@
 
 To install the Ekvis Addons Chrome Extension, follow these steps:
 
-### 1. Unzip the Downloaded File
+### 1. Download the Extension
+Go to the [Ekvis Addons Releases Page](https://github.com/Mucktros/Ekvis-Addons/releases) and download the latest ZIP file.
+
+
+### 2. Unzip the Downloaded File
 Extract the contents of the downloaded ZIP file to a convenient location on your computer.
 
-### 2. Open Chrome Extensions
+### 3. Open Chrome Extensions
 In your Chrome browser, navigate to:
 
 `chrome://extensions/`
 
-### 3. Enable Developer Mode
+### 4. Enable Developer Mode
 In the top right corner of the Extensions page, toggle **Developer mode** to **ON**.
 
-### 4. Install the Extension
+### 5. Install the Extension
 Drag and drop the unzipped folder directly into the Extensions page. Chrome will automatically install the extension.
 
 ### Troubleshooting
