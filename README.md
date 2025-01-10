@@ -3,8 +3,8 @@
 **Ekvis Addons** enhances your experience on **Ekvis** by adding extra features through a set of customizable buttons. This extension allows you to remove elements such as labels, backgrounds, and extra land, giving you more control over the display.
 
 ## Features
-- **Remove Label:** Toggle the visibility of the label element.
-- **Remove Background:** Hide or show background elements on the page.
+- **Remove Label:** Toggle the visibility of the cursor label.
+- **Remove Background:** Hide or show background.
 - **Remove Extra Land:** Toggle the visibility of extra land elements.
 
 ## Installation
