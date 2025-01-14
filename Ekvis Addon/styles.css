@@ -1,55 +1,98 @@
-#floatingPanel {
-  position: Absolute;
-  top: 100px;
-  left: 20px;
-  background-color: rgba(0, 0, 0, 0.8);
-  border-radius: 8px;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  z-index: 10000;
-  width: 200px;
-  gap: 15px;
+body, * {
+    cursor: default !important;
 }
 
-#floatingPanel.hidden {
-  display: none;
+#floatingPanel {
+    position: Absolute;
+    top: 100px;
+    left: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    z-index: 10000;
+    width: 200px;
+    gap: 15px;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    opacity: 1;
+    transform: scale(1);
 }
+
+    #floatingPanel.hidden {
+        opacity: 0;
+        transform: scale(0.9);
+        pointer-events: none;
+        transition-delay: 0.3s;
+    }
+
+    #floatingPanel:not(.hidden) {
+        opacity: 1;
+        transform: scale(1);
+        pointer-events: auto;
+    }
+
+    #floatingPanel.closing {
+        opacity: 0;
+        transform: scale(0.9);
+        pointer-events: none;
+    }
 
 .toggleButton, .closeButton, #reopenButton {
-  background-color: rgba(0, 0, 0, 0.8);
-  color: white;
-  font-size: 16px;
-  padding: 12px 15px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  width: 100%;
-  transition: background-color 0.3s, transform 0.2s;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    font-size: 16px;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s, transform 0.2s;
 }
 
-.toggleButton.active, .closeButton.active, #reopenButton.active {
-  background-color: #397C3C;
-}
+    .toggleButton.active, .closeButton.active, #reopenButton.active {
+        background-color: #397C3C;
+    }
 
-.toggleButton:hover, .closeButton:hover, #reopenButton:hover {
-  background-color: #397C3C;
-  transform: scale(1.05);
-}
+    .toggleButton:hover, .closeButton:hover, #reopenButton:hover {
+        background-color: #397C3C;
+        transform: scale(1.1);
+        transition: transform 0.2s ease;
+    }
+
+    .toggleButton:focus, .closeButton:focus, #reopenButton:focus {
+        outline: 2px solid #397C3C;
+        outline-offset: 2px;
+    }
+
+    .toggleButton:disabled, .closeButton:disabled, #reopenButton:disabled {
+        background-color: gray;
+        cursor: not-allowed;
+    }
+
+    .toggleButton:focus, .closeButton:focus, #reopenButton:focus {
+        outline: none;
+        box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.2);
+    }
 
 #reopenButton {
-  position: fixed;
-  top: 100px;
-  left: 20px;
-  z-index: 9999;
-  width: 200px;
+    position: Absolute;
+    top: 100px;
+    left: 20px;
+    z-index: 9999;
+    width: 200px;
 }
 
-#reopenButton.hidden {
-  display: none;
-}
+    #reopenButton.hidden {
+        display: none;
+    }
 
 .hidden {
-  opacity: 0;
+    opacity: 0;
+}
+
+.no-cursor {
+    cursor: none !important;
 }
