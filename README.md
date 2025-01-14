@@ -6,6 +6,8 @@
 - **Remove Label:** Toggle the visibility of the cursor label.
 - **Remove Background:** Hide or show background.
 - **Remove Extra Land:** Toggle the visibility of extra land elements.
+- **Remove Flags:** Toggle the visibillity of the flags.
+- **Reset Hotkey:** Set a hotkey for the reset button (deafualt of ALT+R).
 
 ## Installation
 
