@@ -7,7 +7,7 @@
 - **Remove Background:** Hide or show background.
 - **Remove Extra Land:** Toggle the visibility of extra land elements.
 - **Remove Flags:** Toggle the visibillity of the flags.
-- **Reset Hotkey:** Set a hotkey for the reset button (deafualt of ALT+R).
+- **Reset Hotkey:** Set a hotkey for the reset button (deafualt on the website being ALT+R).
 
 ## Installation
 
